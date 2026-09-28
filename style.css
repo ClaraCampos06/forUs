@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Imperial+Script&family=Lavishly+Yours&display=swap');
+
+@media screen and (max-width: 767px){
+
+
+:root{
+    --frank:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --palito: "Average Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--palito);
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url(img/flower.jfif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.555);
+   
+}
+.box h1{
+    font-family: var(--frank);
+    font-size: 2.4em;
+}
+.box h2{
+    font-size: 1.7em;
+    text-align: center;
+
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    
+
+}
+.btt{
+    width: 100%;
+    height: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.btt label{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btt a{
+    width: 55%;
+    height: 30%;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+}}

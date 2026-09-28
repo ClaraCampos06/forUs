@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Imperial+Script&family=Lavishly+Yours&display=swap');
+
+:root{
+    --cursiva: "Imperial Script", cursive;
+    --palito: "Average Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--palito);
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/boat.jfif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: white;
+    
+}
+.hoje{
+    width: 100%;
+    height: 95vh;
+background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btt{
+    width: 100%;
+    height: 5vh;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.555);
+    align-items: center;
+}
+
+.btt a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+p{
+    font-size: 1.5em;
+}
+
+button{
+    width: 40%;
+    height: 7%;
+    font-size: 1.2em;
+    background-color: white;
+    border: 1px solid black;
+}

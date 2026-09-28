@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Imperial+Script&family=Lavishly+Yours&display=swap');
+
+:root{
+    --cursiva: "Imperial Script", cursive;
+    --palito: "Average Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--palito);
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/candle.jfif);
+    background-size: cover;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+#contador{
+    font-size: 2em;
+}
+.btt{
+    width: 40%;
+    height: 10%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btt a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    width: 70%;
+    margin-left: 10px;
+    text-align: center;
+}
+#p{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+h2, h1, p{
+    background-color: rgba(0, 0, 0, 0.555);
+}
